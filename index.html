@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: hsl(12, 92%, 48%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 3;
+    }
+
+    .card {
+      background-color: hwb(32 9% 6%);
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(8, 8, 8, 0.1);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .card h2 {
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .card p {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .details {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .details li {
+      margin: 5px 0;
+    }
+
+    .btn {
+      background-color: hsl(0, 100%, 50%);
+      color: white;
+      padding: 10px 20px;
+      border: 2px solid hsl(52, 100%, 50%);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: rgb(47, 243, 21);
+      color: #f3f5f7;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="navya photo 2.jpg" alt="Profile card Picture" width="370">
+    <h2>Navya Mittal</h2>
+    <p>Web Developer | Tech Enthusiast</p>
+
+    <ul class="details">
+      <li>📍 New Delhi, India</li>
+      <li>💼 Full time Coder</li>
+    </ul>
+
+    <button class="btn">View Profile</button>
+  </div>
+
+</body>
+</html>
